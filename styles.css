@@ -111,21 +111,36 @@ html, body {
 
 
 
+
+
+
+
+
+
 @media (max-width: 800px) {
-  .nav-links,
-  .icons {
+  .nav-links {
     display: none;
   }
-
 
   .toggle_btn {
     display: block;
   }
 
-
   .dropdown_menu {
     width: 80%;
     right: 10%;
+  }
+
+  .icons {
+    display: flex;
+    gap: 15px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .icons img {
+    width: 20px;
+    height: 20px;
   }
 }
 
